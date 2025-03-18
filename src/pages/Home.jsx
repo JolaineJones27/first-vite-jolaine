@@ -1,14 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
-function Home() {
-  //const [count, setCount] = useState(0)
-
+export default function Home() {
   return (
     <>
-      <p>This is the home page</p>
+      <h1>Welcome to the Home Page</h1>;
     </>
   );
 }
-
-export default Home;

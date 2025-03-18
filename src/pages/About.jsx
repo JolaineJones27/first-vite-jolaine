@@ -1,14 +1,10 @@
 import { useState } from "react";
-import "./App.css";
+import "../App.css";
 
-function About() {
-  //const [count, setCount] = useState(0)
-
+export default function About() {
   return (
     <>
-      <p>This is the about page</p>
+      <h1>About Us</h1>;
     </>
   );
 }
-
-export default About;
